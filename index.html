@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./starter-code/assets/images/favicon-32x32.png">
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/ba45d30095.js" crossorigin="anonymous"></script>
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Single-page developer portfolio</title>
+</head>
+<body>
+  <nav>
+    <ul class="nav-list">
+      <li>
+        <h1>adamkeyes</h1>
+      </li>
+      <li>
+        <ul class="links">
+          <li>
+            <img src="./starter-code/assets/images/icon-github.svg" alt="GitHub logo" />
+          </li>
+          <li>
+            <img src="./starter-code/assets/images/icon-frontend-mentor.svg" alt="Frontend Mentor logo" />
+          </li>
+          <li>
+            <img src="./starter-code/assets/images/icon-linkedin.svg" alt="LinkedIn logo" />
+          </li>
+          <li>
+            <img src="./starter-code/assets/images/icon-twitter.svg" alt="Twitter logo" />
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <section class="hero">
+      <picture>
+        <source media="(min-width:1201px)" srcset="./starter-code/assets/images/image-profile-desktop.webp">
+        <source media="(min-width:768px)" srcset="./starter-code/assets/images/image-profile-tablet.webp">
+        <img src="./starter-code/assets/images/image-profile-mobile.webp" alt="Photo of Adam Keyes">
+      </picture>
+      <div class="ring1">
+        <img src="./starter-code/assets/images/pattern-rings.svg" alt="">
+      </div>
+      <div class="circle">
+        <img src="./starter-code/assets/images/pattern-circle.svg" alt="">
+      </div>
+      <div class="hero-info">
+        <h2><span class="split"><span class="tablet-split">Nice to</span> meet you!</span> I'm <span class="name-wrapper">
+          <span class="hero-name">Adam Keyes</span>.</span></h2>
+        <p class="hero-description">Based in the UK, I'm a front-end developer passionate about 
+          building accessible web apps that users love.</p>
+          <button>CONTACT ME</button>
+      </div>
+    </section>
+    <hr class="hero-line">
+    <section class="skills">
+      <div class="skill-html">
+        <h3>HTML</h3>
+        <p>4 Years Experience</p>
+      </div>
+      <div class="skill-css">
+        <h3>CSS</h3>
+        <p>4 Years Experience</p>
+      </div>
+      <div class="javascript">
+        <h3>Javascript</h3>
+        <p>4 Years Experience</p>
+      </div>
+      <div class="accessibility">
+        <h3>Accessibility</h3>
+        <p>4 Years Experience</p>
+      </div>
+      <div class="react">
+        <h3>React</h3>
+        <p>3 Years Experience</p>
+      </div>
+      <div class="sass">
+        <h3>Sass</h3>
+        <p>3 Years Experience</p>
+      </div>
+      <div class="ring2">
+        <img src="./starter-code/assets/images/pattern-rings.svg" alt="">
+      </div>
+    </section>
+    <hr class="skills-line">
+    <article class="projects">
+      <ul class="projects-header">
+        <li>
+          <h2>Projects</h2>
+        </li>
+        <li>
+          <button>CONTACT ME</button>
+        </li>
+      </ul>
+      <ul class="project-list">
+        <li>
+          <div class="picture-container">
+            <picture>
+              <source media="(min-width:1025px)" srcset="./starter-code/assets/images/thumbnail-project-1-large.webp">
+              <img src="./starter-code/assets/images/thumbnail-project-1-small.webp" alt="Design portfolio">
+            </picture>
+            <span class="overlay">
+              <div class="desktop-buttons">
+                <button>VIEW PROJECT</button>
+                <button>VIEW CODE</button>
+              </div>
+            </span>
+          </div>
+          <h4>DESIGN PORTFOLIO</h4>
+            <ul class="portfolio-languages">
+              <li><p>HTML</p></li>
+              <li><p>CSS</p></li>
+            </ul>
+            <ul class="portfolio-buttons">
+              <li><button>VIEW PROJECT</button></li>
+              <li><button>VIEW CODE</button></li>
+            </ul>
+        </li>
+        <li>
+          <div class="picture-container">
+            <picture>
+              <source media="(min-width:1025px)" srcset="./starter-code/assets/images/thumbnail-project-2-large.webp">
+              <img src="./starter-code/assets/images/thumbnail-project-2-small.webp" alt="Design portfolio">
+            </picture>
+            <span class="overlay">
+              <div class="desktop-buttons">
+                <button>VIEW PROJECT</button>
+                <button>VIEW CODE</button>
+              </div>
+            </span>
+          </div>
+            <h4>E-LEARNING LANDING PAGE</h4>
+            <ul class="portfolio-languages">
+              <li><p>HTML</p></li>
+              <li><p>CSS</p></li>
+            </ul>
+            <ul class="portfolio-buttons">
+              <li><button>VIEW PROJECT</button></li>
+              <li><button>VIEW CODE</button></li>
+            </ul>
+        </li>
+        <li>
+          <div class="picture-container">
+            <picture>
+              <source media="(min-width:1025px)" srcset="./starter-code/assets/images/thumbnail-project-3-large.webp">
+              <img src="./starter-code/assets/images/thumbnail-project-3-small.webp" alt="Design portfolio">
+            </picture>
+            <span class="overlay">
+              <div class="desktop-buttons">
+                <button>VIEW PROJECT</button>
+                <button>VIEW CODE</button>
+              </div>
+            </span>
+          </div>
+          <h4>TODO WEB APP</h4>
+            <ul class="portfolio-languages">
+              <li><p>HTML</p></li>
+              <li><p>CSS</p></li>
+              <li><p>JAVASCRIPT</p></li>
+            </ul>
+            <ul class="portfolio-buttons">
+              <li><button>VIEW PROJECT</button></li>
+              <li><button>VIEW CODE</button></li>
+            </ul>
+        </li>
+        <li>
+          <div class="picture-container">
+            <picture>
+              <source media="(min-width:1025px)" srcset="./starter-code/assets/images/thumbnail-project-4-large.webp">
+              <img src="./starter-code/assets/images/thumbnail-project-4-small.webp" alt="Design portfolio">
+            </picture>
+            <span class="overlay">
+              <div class="desktop-buttons">
+                <button>VIEW PROJECT</button>
+                <button>VIEW CODE</button>
+              </div>
+            </span>
+          </div>
+          <h4>ENTERTAINMENT WEB APP</h4>
+            <ul class="portfolio-languages">
+              <li><p>HTML</p></li>
+              <li><p>CSS</p></li>
+              <li><p>JAVASCRIPT</p></li>
+            </ul>
+            <ul class="portfolio-buttons">
+              <li><button>VIEW PROJECT</button></li>
+              <li><button>VIEW CODE</button></li>
+            </ul>
+        </li>
+        <li>
+          <div class="picture-container">
+            <picture>
+              <source media="(min-width:1025px)" srcset="./starter-code/assets/images/thumbnail-project-5-large.webp">
+              <img src="./starter-code/assets/images/thumbnail-project-5-small.webp" alt="Design portfolio">
+            </picture>
+            <span class="overlay">
+              <div class="desktop-buttons">
+                <button>VIEW PROJECT</button>
+                <button>VIEW CODE</button>
+              </div>
+            </span>
+          </div>
+          <h4>MEMORY GAME</h4>
+            <ul class="portfolio-languages">
+              <li><p>HTML</p></li>
+              <li><p>CSS</p></li>
+              <li><p>JAVASCRIPT</p></li>
+            </ul>
+            <ul class="portfolio-buttons">
+              <li><button>VIEW PROJECT</button></li>
+              <li><button>VIEW CODE</button></li>
+            </ul>
+        </li>
+        <li>
+          <div class="picture-container">
+            <picture>
+              <source media="(min-width:1025px)" srcset="./starter-code/assets/images/thumbnail-project-6-large.webp">
+              <img src="./starter-code/assets/images/thumbnail-project-6-small.webp" alt="Design portfolio">
+            </picture>
+            <span class="overlay">
+              <div class="desktop-buttons">
+                <button>VIEW PROJECT</button>
+                <button>VIEW CODE</button>
+              </div>
+            </span>
+          </div>
+          <h4>ART GALLERY SHOWCASE</h4>
+            <ul class="portfolio-languages">
+              <li><p>HTML</p></li>
+              <li><p>CSS</p></li>
+              <li><p>JAVASCRIPT</p></li>
+            </ul>
+            <ul class="portfolio-buttons">
+              <li><button>VIEW PROJECT</button></li>
+              <li><button>VIEW CODE</button></li>
+            </ul>
+        </li>
+      </ul>
+    </article>
+  </main>
+  <footer>
+    <section class="contact-form">
+      <div class="contact-info">
+        <h2>Contact</h2>
+        <p class="contact-description">
+          I would love to hear about your project and how I could help. Please 
+          fill in the form, and I’ll get back to you as soon as possible.
+        </p>
+      </div>
+        <form action="https://getform.io/f/90964940-b6c9-463d-bc30-940fb8fde69e" name="contact" class="contact" method="POST" onsubmit="submit" autocomplete="off" novalidate>
+          <input type="text" class="name" placeholder="NAME" name="name">
+          <div class="error-container">
+            <input type="email" class="email" placeholder="EMAIL" name="email" required>
+            <div class="error-msg">
+              <i class="fa-solid fa-exclamation error-icon"></i>
+              <p class="error-text">Sorry, invalid format here</p>
+            </div>
+          </div>
+          <textarea class="message" placeholder="MESSAGE" name="message" required></textarea>
+        <button type="submit" class="submit">SEND MESSAGE</button>
+      </form>
+      <div class="ring3">
+        <img src="./starter-code/assets/images/pattern-rings.svg" alt="">
+      </div>
+    </section>
+    <hr class="footer-line">
+    <nav>
+      <ul class="nav-list">
+        <li>
+          <h1>adamkeyes</h1>
+        </li>
+        <li>
+          <ul class="links">
+            <li>
+              <img src="./starter-code/assets/images/icon-github.svg" alt="GitHub logo" />
+            </li>
+            <li>
+              <img src="./starter-code/assets/images/icon-frontend-mentor.svg" alt="Frontend Mentor logo" />
+            </li>
+            <li>
+              <img src="./starter-code/assets/images/icon-linkedin.svg" alt="LinkedIn logo" />
+            </li>
+            <li>
+              <img src="./starter-code/assets/images/icon-twitter.svg" alt="Twitter logo" />
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
